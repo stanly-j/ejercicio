@@ -1,5 +1,6 @@
 const os = require('node:os')
 const fs = require('node:fs')
+const f = require('node:fs')
 
 const state = fs.statSync('./archivo.txt')
 console.log(state)
